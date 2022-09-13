@@ -33,9 +33,9 @@ Unit tests are under the project "DepthChartsAppUnitTests"
 3. For the scenario "getBackups(“QB”, JaelonDarden)" where the expected output is #10 – Scott Miller, I am assuming the specification is wrong, and for Scott Miller to be returned we should call "getBackups(“LWR”, JaelonDarden)"
 
 # How do we scale the solution ?
-## Adding all the NFL teams?
+### Adding all the NFL teams?
 We can create a new entity "Team". Note that the "DepthChart" entity has "TeamId". Each depth chart will belong to one team
 
-## Adding more Sports? MLB, NHL, NBA
+### Adding more Sports? MLB, NHL, NBA
 We create an entity "Sport". Each sport can have many teams
 
