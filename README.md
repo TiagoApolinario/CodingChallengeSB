@@ -13,6 +13,8 @@ For a real world scenario I would also have had written integration tests using 
 
 Note that for the queries written using Entity Framework, I am not taking performance into consideration for this exercise
 
+Note that the APIs is driven by plain text, in real world scenario they would be driven by IDs considering we would have UI
+
 # Getting Started
 To run + analyze the implemented solution, please use one IDE of your choice like: Visual Studio, Rider or VS Code
 
