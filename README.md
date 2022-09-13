@@ -11,6 +11,8 @@ For a real world application I would have used the [CleanArchitecture](https://g
 
 For a real world scenario I would also have had written integration tests using SpecFlow to come up with different scenarios. This integration tests would target the APIs inside the "DepthChartsWeb" project. That would not only increase the code coverage but would also be testing the data layer.
 
+Note that for the queries written using Entity Framework, I am not taking performance into consideration for this exercise
+
 # Getting Started
 To run + analyze the implemented solution, please use one IDE of your choice like: Visual Studio, Rider or VS Code
 
@@ -28,4 +30,4 @@ Unit tests are under the project "DepthChartsAppUnitTests"
 
 1. Depth position start from zero, not one;
 2. There can be no gaps in between depth positions;
-3. For the scenario "getBackups(“QB”, JaelonDarden)" where the expected output is #10 – Scott Miller, I am assuming the specification is wrong the for Scott Miller to be returned we should call "getBackups(“LWR”, JaelonDarden)"
+3. For the scenario "getBackups(“QB”, JaelonDarden)" where the expected output is #10 – Scott Miller, I am assuming the specification is wrong, and for Scott Miller to be returned we should call "getBackups(“LWR”, JaelonDarden)"
